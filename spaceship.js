@@ -1,1 +1,5 @@
-class Spaceship {}
+class Spaceship {
+  constructor() {
+
+  }
+}
