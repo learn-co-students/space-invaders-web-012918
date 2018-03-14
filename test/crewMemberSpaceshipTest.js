@@ -41,11 +41,14 @@ describe("ship with a crew", () => {
 
   describe("cloak", () => {
     it("should cloak the ship when a defender uses setsInvisibility()", () => {
+
+
       katie.setsInvisibility();
       expect(aluminumFalcon.cloaked).to.eq(false);
 
       jon.setsInvisibility();
       expect(aluminumFalcon.cloaked).to.eq(true);
+
     });
   });
 
